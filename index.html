@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content ="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio-Aroj Amin Rafi</title> 
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/58cc3d03a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+      <div class="container">
+            <nav>
+                  <img src="images/logo.png" class="logo">
+                  <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                  </ul>
+                  <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                  <p>CS Undergrad @MUN</p>
+                  <h1>Hello, World!<br> I'm <span>Aroj</span> Amin Rafi.</h1>
+            </div>
+      </div>
+</div>
+<!--about section-->
+<div id="about">
+      <div class="container">
+            <div class="row">
+                  <div class="about-col-1">
+                        <img src="images/qww.jpg">
+            </div>
+            <div class="about-col-2">
+                  <h1 class="sub-title">About</h1>
+                  <p>I'm a student at Memorial University, passionate about coding with expertise in Python and Java. I'm familiar with C, JavaScript and currently exploring React and Kotlin. Outside of the tech world, I love to travel, sightsee, and play soccer. Staying active through regular workouts is also a key part of my routine.</p>
+                  <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                              <li><span>Java Development</span><br>Building and Designing Application/Games in Java Environment</li>
+                              <li><span>Web Development</span><br>Web Application Development</li>
+                              <li><span>App Development</span><br>Building Android Applications</li>
+                        </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                        <ul>
+                              <li>I am looking to get industry experience and very excited learn new things everyday.</li>
+                              
+                        </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                        <ul>
+                              <li><span>2020-Bachelor of Science (Major-Computer Science)</span><br>Memorial University of Newfoundland</li>
+                              <li><span>2019-Higher Secondary Certificate</span><br>Dhaka Residential Model College</li>
+                              <li><span>2017-Secondary School Certificate</span><br>Dhaka Residential Model College</li>
+                        </ul>
+                  </div>
+            </div>
+
+            </div>
+      </div>
+</div>
+
+<div id="services">
+      <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                  <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>Java Development</h2>
+                        <p>I provide Java expertise for custom application development,
+                         seamless enterprise solutions, and performance optimization.</p>
+                        <a href="#">Learn more</a>
+
+                  </div>
+                  <div>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h2>Continuous Learning</h2>
+                        <p>I am eager to expand my knowledge further and contribute my skills
+                         according to the specific needs.</p>
+                        <a href="#">Learn more</a>
+
+                  </div>
+            </div>
+      </div>
+
+</div>
+<!--portfolio section-->
+
+<div id="portfolio">
+      <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                  <div class="work">
+                        <img src="images/cant-stop.png">
+                        <div class="layer">
+                              <h3>Can't Stop Game</h3>
+                              <p>Enjoy the Java version of 'Can't Stop'—a
+                              classic board game of strategy and excitement.</p>
+                              <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                  </div>
+                  <div class="work">
+                        <img src="images/realtor-ca-BC.png">
+                        <div class="layer">
+                              <h3>Realtor Clone Website</h3>
+                              <p>I am learning react and building this realtor clone website.</p>
+                              <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                  </div>
+                  <div class="work">
+                        <img src="images/bmi.jpg">
+                        <div class="layer">
+                              <h3>BMI Calculator</h3>
+                              <p>Effortlessly track your health journey with my BMI Calculator Android app, 
+                              built in android studio with Kotlin for quick and user-friendly results.</p>
+                              <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                  </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+      </div>
+</div>
+
+<!----contact-->
+
+<div id="contact">
+      <div class="container">
+            <div class="row">
+                  <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>arojamin00@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +1 (709) 219-4768</p>
+                        <div class="social-icons">
+                              <a href="https://www.facebook.com/werewolf.aroj"><i class="fa-brands fa-facebook"></i></a>
+                              <a href="https://www.instagram.com/_aarafi__/"><i class="fa-brands fa-instagram"></i></a>
+                              <a href="https://www.linkedin.com/in/aroj-amin-rafi-92b367211/"><i class="fa-brands fa-linkedin"></i></a>
+                              <a href="https://github.com/Aarafi12"><i class="fa-brands fa-github"></i></a>
+
+
+
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                  </div>
+
+                  <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                              <input type="text" name="Name" placeholder="Your Name" required>
+                              <input type="email" name="Email" placeholder="Your Email" required>
+                              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                              <button type="submit" class="btn btn2">Submit</button>
+
+
+                        </form>
+                        <span id="msg"></span>
+
+                        </div>
+                  
+            </div>
+            
+      </div>
+      <div class="footer">
+            <p>Website crafted with <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i> & <i class="fa-brands fa-js"></i></p>
+      </div>
+
+</div>
+
+<script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+            for(tablink of tablinks){
+                  tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                  tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+      }
+</script>
+
+<script>
+      var side = document.getElementById("sidemenu");
+
+      function openmenu(){
+            side.style.right = "0";
+      }
+
+      function closemenu(){
+            side.style.right = "-200px";
+      }
+
+</script>
+
+<script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbysL5N_vH2MpkZmFLuZ98evr7CDOeI-XR2rzXrfRfQ93wtNofd7l7iDvPKkOai3NV0GPQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML= "Message sent successfully!"
+            setTimeout(function(){
+                  msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+
+
+</html>
